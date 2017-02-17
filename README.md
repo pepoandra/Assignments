@@ -15,6 +15,12 @@
 - The day-of-week that starts the year as an integer from 1 to 7 (1 is Sunday)
 
 
+## JavaFx
+
+Small applications in JavaFX with images and sounds.
+- A communist car animation with Karl Marx moving through a field and celebrating at the end with the Soviet Anthem.
+- An empty Sudoku grid that checks whether a .txt file is a solution for the given sudoku puzzle. 
+
 ## Python
 
 *chatbot.py* is a command-line chatbot. The user inputs as many texts as desired when executing the program. These texts are then analysed and used to create a dictionary of pairs of words that the bot uses to create a new answer based on the user's last input.
