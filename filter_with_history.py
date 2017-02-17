@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# Python 2.7
-# Alexander Bratyshkin
-# 260684228
-
 import os
 import sys
 import struct
@@ -87,9 +82,6 @@ def loadBMPImage( img_file_name ):
 def saveBMPImage( img_file_name, bmp_bytes ):
     with open( img_file_name, 'wb' ) as bmp_file:
         bmp_file.write( "".join(map(chr, bmp_bytes)) )
-        #for byte in bmp_bytes:
-        #    bmp_file.write(chr(byte))
-
 
 def main():
     # Check user command line arguments
@@ -110,9 +102,7 @@ def main():
     except Exception as e:
         print("Error reading history file. " + str(e))
         pass
-    #print("Undo: ", len(history.undo))
-    #print("Redo: ", len(history.redo))
-    #print("Active: ", history.active != None)
+
     # Process command
     if cmd == "load":
         try:
@@ -168,9 +158,6 @@ def main():
             return
         saveBMPImage(result_file_name, history.getActiveBMP())
 
-    #print("Undo: ", len(history.undo))
-    #print("Redo: ", len(history.redo))
-    #print("Active: ", history.active != None)
     ## Save history
     with open(history_file_name, "wb") as history_file:
         pickle.dump(history, history_file)
