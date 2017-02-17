@@ -27,4 +27,4 @@
 
 
 Board:
-![Logo](/propeller.jpg)
+![Logo](/Assembly/propeller.jpg)
