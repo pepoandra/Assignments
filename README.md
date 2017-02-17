@@ -31,6 +31,4 @@
 
 [Video demonstration ](https://youtu.be/VP0XxwCvcGU).
 
-
-Board:
 ![Logo](/Assembly/propeller.jpg)
