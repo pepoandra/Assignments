@@ -15,7 +15,7 @@
 - The day-of-week that starts the year as an integer from 1 to 7 (1 is Sunday)
 
 
-## JavaFx
+## JavaFX
 
 Small applications in JavaFX with images and sounds.
 - A communist car animation with Karl Marx moving through a field and celebrating at the end with the Soviet Anthem.
