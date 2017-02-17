@@ -1,15 +1,3 @@
-(* Assignment 1 *)
-(* Student name: Sebastian Andrade, Id Number: 260513637 *) 
-
-(* In the template below we have written the names of the functions that
-you need to define.  You MUST use these names.  If you introduce auxiliary
-functions you can name them as you like, except that your names should not
-clash with any of the names we are using.  We have also shown the types
-that you should have.  Your code MUST compile and must NOT go into infinite
-loops.  An assignment like that means you have not tested it.  You will get
-ZERO FOR THE ENTIRE ASSIGMENT even if the problem is only with one
-question.  If you are not able to get the code to compile and run do not
-submit it.  *)
 
 (* module hw1_sol.  Use this if you want to load the file into an interactive session.*)
 

@@ -1,8 +1,3 @@
-// @author Sebastian Andrade
-// COMP206
-// ID 260513637
-
-
 
 #include <stdio.h>
 #include <stdlib.h>
