@@ -1,4 +1,3 @@
-#ANDRADE - 260513637
 import sys
 import os
 import stat
