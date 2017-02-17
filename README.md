@@ -9,6 +9,12 @@
 ## C 
 *encrypted_chat.c* is an encrypted command-line chat client written in C. Messages are encrypted and stored in different text files for persistence.
 
+*Calendar.c* prints a year-long calendar on a terminal. Its three parameter are listed below:
+- Language file as the path to a text file as was described above
+- Maximum number of characters ​ DAYSIZE​ to print for the day-of-week labels, which must be 2 or greater
+- The day-of-week that starts the year as an integer from 1 to 7 (1 is Sunday)
+
+
 ## Python
 
 *chatbot.py* is a command-line chatbot. The user inputs as many texts as desired when executing the program. These texts are then analysed and used to create a dictionary of pairs of words that the bot uses to create a new answer based on the user's last input.
