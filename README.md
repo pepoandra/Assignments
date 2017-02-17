@@ -13,6 +13,8 @@
 
 *chatbot.py* is a command-line chatbot. The user inputs as many texts as desired when executing the program. These texts are then analysed and used to create a dictionary of pairs of words that the bot uses to create a new answer based on the user's last input.
 
+*filter_with_history.py* is a CGI filter with UNDO and REDO functions incorporated. It uses a C library called *libfast_filter.so*. 
+
 ## Assembly 
 
 *LCD_FINAL_MASTER.asm* controls a small LCD screen of 16 characters by 2 lines. 
