@@ -1,19 +1,5 @@
 module Hw2
 
-(* Assignment 2 *) (* Do not edit this line. *)
-(* Student name: J. Alfred Prufrock, Id Number: 26061729 *) (* Edit this line. *)
-
-(* In the template below we have written the names of the functions that
-you need to define.  You MUST use these names.  If you introduce auxiliary
-functions you can name them as you like, except that your names should not
-clash with any of the names we are using.  We have also shown the types
-that you should have.  It is OK to change a "rec" declaration and put the
-recursive function inside a helper if you want to.  Your code MUST compile
-and must NOT go into infinite loops.  An assignment like that means you
-have not tested it.  You will get ZERO FOR THE ENTIRE ASSIGMENT even if the
-problem is only with one question.  If you are not able to get the code to
-compile and run do not submit it.  *)
-
 (* Question 1 *) 
 
 let deriv (f, dx: float) = fun x -> ((f(x + dx) - f(x))/dx)
@@ -29,8 +15,6 @@ let rec newton(f,guess:float,tol:float,dx:float) =
 //let a = newton(make_cubic(2.0,-3.0,1.0),0.0,0.0001,0.0001)
 
 let root = newton(sin,5.0,0.0001,0.0001)
-
-printf "es cierto q me movi a tu vieja, pero mi amor, puedo cambiar: %A" root
 
 
 (* Question 2 *)
