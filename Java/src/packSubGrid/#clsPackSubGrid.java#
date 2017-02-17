@@ -1,0 +1,64 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package packSubGrid;
+
+/**
+ *
+ * @author cstuser
+ */
+public class clsPackSubGrid
+{
+    
+    
+    
+   public boolean DigRepetInSubGrid(int[][] grid)
+   {    
+    int[] counters = new int[9];
+    
+    for(int b = 0; b < 9 ; ++b)
+            {
+                 counters[b] = 0;  
+            }
+    
+  
+		    
+		for(int y = 0; y < 3; ++y) // Vertical offset
+		{
+			 for(int h = 0; h < 3; ++h) // Horizontal offset
+			 {	 
+			    for(int i = 0 + y*3; i < 9 ; ++i)
+			    {
+				for(int a = 0+ h*3 ; a < 3 + h*3; ++a)
+				{
+					switch(grid[i][a])
+				    {
+					case 0:  counters[0] += 1;    break;   
+					case 1:  counters[1] += 1;    break;   
+					case 2:  counters[2] += 1;    break;   
+					case 3:  counters[3] += 1;    break;   
+					case 4:  counters[4] += 1;    break;   
+					case 5:  counters[5] += 1;    break;   
+					case 6:  counters[6] += 1;    break;   
+					case 7:  counters[7] += 1;    break;   
+					case 8:  counters[8] += 1;    break;   
+				    }                			
+				}
+			    }
+			}
+		}
+        
+    	}
+    
+    
+           return true;
+    }   
+    
+ 
+   
+   }
+    
+}
